@@ -1,0 +1,38 @@
+.food-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-card {
+  width: 240px;
+  height: 350px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.food-card img{
+  width: 210px;
+  height: 150px;
+}
+
+.food-card .food-name {
+  font-size: 24px;
+}
+
+.food-card .food-price {
+  font-size: 16px;
+}
+
+.food-card button {
+  width: 162px;
+  height: 42px;
+  background-color: #ddd;
+  border-radius: 10px;
+  border: none;
+}
