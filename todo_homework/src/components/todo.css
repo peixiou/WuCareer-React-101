@@ -1,0 +1,4 @@
+.level-left,
+.level-right {
+  flex-shrink: 1;
+}
