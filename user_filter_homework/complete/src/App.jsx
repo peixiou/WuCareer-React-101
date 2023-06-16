@@ -45,6 +45,7 @@ export default class App extends Component {
                   .includes(this.state.query.toLowerCase());
               })
               .map((item) => {
+                console.log(item);
                 return (
                   <div className="column is-one-quarter has-text-centered">
                     <figure className="image is-128x128 is-inline-block">

@@ -59,7 +59,7 @@ const App = () => {
     setData([
       ...data,
       {
-        id: data[data.length - 1].id + 1,
+        id: (data[data.length - 1]?.id + 1) | 0,
         todo: text,
         completed: false,
       },
@@ -104,19 +104,6 @@ const App = () => {
             />
           );
         })}
-
-        <div className="box">
-          <div className="level">
-            <div className="level-left">
-              <p className="is-size-4 has-text-black">sample todo</p>
-            </div>
-            <div className="level-right buttons">
-              <button className="button is-warning">in progress</button>
-              <button className="button is-success">complete</button>
-              <button className="button is-danger">delete</button>
-            </div>
-          </div>
-        </div>
       </section>
     </div>
   );
