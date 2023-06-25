@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.index {
+  background-color: #ccc;
+  height: 30px;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.button-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  border: 1px solid #ddd;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: bisque;
+  text-align: center;
+}
