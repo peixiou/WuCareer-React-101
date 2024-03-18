@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    .left-items {
+        display: flex;
+        align-items: center;
+    }
+    .button {
+        margin: 0 4px;
+    }
+}

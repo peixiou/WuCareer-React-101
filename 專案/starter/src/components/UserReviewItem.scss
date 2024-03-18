@@ -1,0 +1,29 @@
+.user-review{
+    width: 500px;
+    border: 1px solid #4444448d;
+    padding: 12px;
+    box-shadow: 1px 1px #444444;
+    margin-bottom: 20px;
+    .review-title-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #444444;
+        padding-bottom: 12px;
+    }
+    .review-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .review-name {
+        font-size: 12px;
+    }
+    .review-content {
+        padding: 10px 0 0;
+        font-size: 12px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+    }
+}

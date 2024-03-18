@@ -1,0 +1,15 @@
+.watch-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    .watch-list-container {
+        width: 500px;
+    }
+    .empty {
+        text-align: center;
+        padding: 80px 0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

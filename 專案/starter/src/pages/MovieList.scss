@@ -1,0 +1,15 @@
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    .genre {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20PX;
+    }
+    .movie-list-container {
+        width: 500px;
+    }
+}
